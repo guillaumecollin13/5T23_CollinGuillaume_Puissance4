@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\puissance4\\puissance4\\puissance4\\puissance4.csproj": {}
+    "H:\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj": {}
   },
   "projects": {
-    "H:\\puissance4\\puissance4\\puissance4\\puissance4.csproj": {
+    "H:\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\puissance4\\puissance4\\puissance4\\puissance4.csproj",
+        "projectUniqueName": "H:\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
         "projectName": "puissance4",
-        "projectPath": "H:\\puissance4\\puissance4\\puissance4\\puissance4.csproj",
+        "projectPath": "H:\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
         "packagesPath": "C:\\Users\\220053\\.nuget\\packages\\",
-        "outputPath": "H:\\puissance4\\puissance4\\puissance4\\obj\\",
+        "outputPath": "H:\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
