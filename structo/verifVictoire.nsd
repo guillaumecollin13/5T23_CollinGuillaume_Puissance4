@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.24-11" text="&#34;verifLigne&#34;" comment="" color="ffffff" type="program" style="nice">
+<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.24-11" text="&#34;verifVictoire&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
 	<children>
-		<instruction text="&#34;appel(verifligne)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;appel(verifligne)&#34;" comment="" color="ffffff" rotated="0"></instruction>
 		<alternative text="&#34;(verif)&#34;" comment="" color="ffffff">
 			<qTrue>
 				<alternative text="&#34;(piongagnant=O)&#34;" comment="" color="ffffff">
@@ -14,7 +14,7 @@
 				</alternative>
 			</qTrue>
 			<qFalse>
-				<instruction text="&#34;appel verfColone&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;appel verfColone&#34;" comment="" color="ffffff" rotated="0"></instruction>
 				<alternative text="&#34;(verif)&#34;" comment="" color="ffffff">
 					<qTrue>
 						<alternative text="&#34;(piongagnant=O)&#34;" comment="" color="ffffff">
@@ -27,7 +27,7 @@
 						</alternative>
 					</qTrue>
 					<qFalse>
-						<instruction text="&#34;appel verifDiago&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;appel verifDiago&#34;" comment="" color="ffffff" rotated="0"></instruction>
 						<alternative text="&#34;(verif)&#34;" comment="" color="ffffff">
 							<qTrue>
 								<alternative text="&#34;(piongagnant=O)&#34;" comment="" color="ffffff">
