@@ -12,3 +12,17 @@ H:\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1
 H:\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.dll
 H:\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.pdb
 H:\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.genruntimeconfig.cache
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\bin\Debug\netcoreapp3.1\puissance4.exe
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\bin\Debug\netcoreapp3.1\puissance4.deps.json
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\bin\Debug\netcoreapp3.1\puissance4.runtimeconfig.json
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\bin\Debug\netcoreapp3.1\puissance4.runtimeconfig.dev.json
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\bin\Debug\netcoreapp3.1\puissance4.dll
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\bin\Debug\netcoreapp3.1\puissance4.pdb
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.csproj.AssemblyReference.cache
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.AssemblyInfoInputs.cache
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.AssemblyInfo.cs
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.csproj.CoreCompileInputs.cache
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.dll
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.pdb
+C:\Users\collin guillaume\Dropbox\PC\Desktop\5T23_CollinGuillaume_Puissance4\puissance4\puissance4\obj\Debug\netcoreapp3.1\puissance4.genruntimeconfig.cache

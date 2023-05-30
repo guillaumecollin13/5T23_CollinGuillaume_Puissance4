@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bf+D2yjU6mutzJFF6KX4hfc4NzUyUTKwG4zplwJz1bf7Cg7AU3bDde9srEqpq8tH0ZueKe+bvjLuNv5vfE+Zew==",
+  "dgSpecHash": "FTYJjj+6vGRlybZT02ZMT6rPFxa9FeJ7WmBwuJBsIwNInDKsVCsxt/zqMbkuz08BsbGt+yx4MjfEd3j4lBOIxw==",
   "success": true,
-  "projectFilePath": "H:\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\collin guillaume\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\collin guillaume\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\collin guillaume\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\collin guillaume\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
