@@ -11,14 +11,7 @@ namespace puissance4
             string replay;//pour rejouer
             string n1 = "lol";
             string n2 = "LOL";
-            if (n1 == n2)
-            {
-                Console.WriteLine("noooooo");
-            }
-            else
-            {
-                Console.WriteLine("yesssss");
-            }
+            bool plusdeplace=false;
             do
             {
                 bool player = true;//bool qui montre quelle joueur joue
@@ -39,16 +32,23 @@ namespace puissance4
                         Console.WriteLine("joueur 2");
                     }
                     outils.affichgrille(grille);
-                    outils.tryparse(out n);
 
-                    outils.choiPiRedOrYell(n, player, grille, out grille);
+                    do
+                    {
+                        outils.tryparse(out n);
+                        outils.choiPiRedOrYell(n, player, grille, out grille, plusdeplace);
+                    } while (plusdeplace);
                     outils.verifLigne(grille, out verif);
                     if (verif == false)
                     {
                         outils.veriColone(grille, out verif);
+                        if (verif == false)
+                        {
+                            outils.verifDiago(grille,out verif);
+                        }
                     }
                     compt = compt + 1;
-                    player = !player;
+                        player = !player;
                 } while (compt < 43 && verif == false);
                 Console.WriteLine("voulezvous recomencez?");
                 Console.WriteLine("oui(y) non(n)");

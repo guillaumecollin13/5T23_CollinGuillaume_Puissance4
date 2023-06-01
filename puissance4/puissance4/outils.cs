@@ -44,7 +44,7 @@ namespace puissance4
             }
 
         }
-        public void choiPiRedOrYell(int n, bool player, string[,] grille, out string[,] grille2) //definir la couleur du pion jouer 
+        public void choiPiRedOrYell(int n, bool player, string[,] grille, out string[,] grille2,bool plusdeplace) //definir la couleur du pion jouer 
         {
 
             if (player == true)
@@ -52,21 +52,21 @@ namespace puissance4
                 Console.ForegroundColor = ConsoleColor.Red;
                 string pionJoueur = "O";
                 string piontAdverse = "o";
-                posiPion(n, pionJoueur, piontAdverse, grille, out grille2);
+                posiPion(n, pionJoueur, piontAdverse, grille, out grille2, plusdeplace);
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 string pionJoueur = "o";
                 string piontAdverse = "O";
-                posiPion(n, pionJoueur, piontAdverse, grille, out grille2);
+                posiPion(n, pionJoueur, piontAdverse, grille, out grille2, plusdeplace);
             }
 
 
         }
-        public void posiPion(int n, string pionjoueur, string piontAdverse, string[,] grille, out string[,] grille2)//placer le point a partir du numero de colone
+        public void posiPion(int n, string pionjoueur, string piontAdverse, string[,] grille, out string[,] grille2, bool plusdeplace)//placer le point a partir du numero de colone
         {
-
+            plusdeplace = false;
             int x = 5;
             bool verif = false;
             do
@@ -80,6 +80,9 @@ namespace puissance4
                 else if (x == 0 && (grille[x, n - 1] == "o" || grille[x, n - 1] == "O"))
                 {
                     Console.WriteLine("vous ne pouvez pas mettre de pion dans cette colone");
+                    verif = true;
+                    plusdeplace= true;
+
                 }
                 else
                 {
@@ -102,12 +105,12 @@ namespace puissance4
                     if (grille[x, i] != "0" && ((grille[x, i] == grille[x, i + 1]) && (grille[x, i + 1] == grille[x, i + 2]) && (grille[x, i + 2] == grille[x, i + 3])))
                     {
                         verif = true;
-                        Console.WriteLine("noooooo");
+                        //Console.WriteLine("noooooo");
                     }
                     else
                     {
                         i = i + 1;
-                        Console.WriteLine("no");
+                        //Console.WriteLine("no");
                     }
                 } while (verif == false && i < 3);
                 x = x + 1;
@@ -155,7 +158,7 @@ namespace puissance4
                 do
                 {
 
-                    if (grille[x, i] != "0" && ((grille[x, i] == grille[x + 1, i + 1]) && (grille[x + 1, i + 1] == grille[x + 2, i + 2]) && (grille[x + 2, i + 2] == grille[x + 3, i + 3])))
+                    if (grille[x, i] != "0" && ((grille[x, i] == grille[x + 1, i+1]) && (grille[x + 1, i+1] == grille[x + 2, i+2]) && (grille[x + 2, i+2] == grille[x + 3, i+3])))
                     {
                         verif = true;
                         //Console.WriteLine("noooooo");
