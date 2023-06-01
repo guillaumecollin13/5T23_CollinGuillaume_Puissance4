@@ -11,7 +11,7 @@ namespace puissance4
             string replay;//pour rejouer
             string n1 = "lol";
             string n2 = "LOL";
-            if (n1==n2)
+            if (n1 == n2)
             {
                 Console.WriteLine("noooooo");
             }
@@ -43,9 +43,9 @@ namespace puissance4
 
                     outils.choiPiRedOrYell(n, player, grille, out grille);
                     outils.verifLigne(grille, out verif);
-                    if (verif==false)
+                    if (verif == false)
                     {
-                       outils.veriColone(grille, out verif);
+                        outils.veriColone(grille, out verif);
                     }
                     compt = compt + 1;
                     player = !player;

@@ -7,7 +7,7 @@ namespace puissance4
 {
     class outils
     {
-        public void rempliGrille(out string[,] grille)
+        public void rempliGrille(out string[,] grille)//remplire la grille
         {
             grille = new string[6, 7];
             for (int i = 0; i < 6; i++)
@@ -18,7 +18,7 @@ namespace puissance4
 
             }
         }
-        public void affichgrille(string[,] grille)
+        public void affichgrille(string[,] grille) //afficher la grille
         {
             for (int i = 0; i < 6; i++)
             {
@@ -44,7 +44,7 @@ namespace puissance4
             }
 
         }
-        public void choiPiRedOrYell(int n, bool player, string[,] grille, out string[,] grille2)
+        public void choiPiRedOrYell(int n, bool player, string[,] grille, out string[,] grille2) //definir la couleur du pion jouer 
         {
 
             if (player == true)
@@ -64,7 +64,7 @@ namespace puissance4
 
 
         }
-        public void posiPion(int n, string pionjoueur, string piontAdverse, string[,] grille, out string[,] grille2)
+        public void posiPion(int n, string pionjoueur, string piontAdverse, string[,] grille, out string[,] grille2)//placer le point a partir du numero de colone
         {
 
             int x = 5;
@@ -87,6 +87,90 @@ namespace puissance4
                 }
             } while (verif == false);
             grille2 = grille;
+        }
+        public void verifLigne(string[,] grille, out bool verifi) //verifier si il y a 4 pion a la suite horizontalement 
+        {
+            bool verif = false;
+            int i;
+            int x = 0;
+            do
+            {
+                i = 0;
+                do
+                {
+
+                    if (grille[x, i] != "0" && ((grille[x, i] == grille[x, i + 1]) && (grille[x, i + 1] == grille[x, i + 2]) && (grille[x, i + 2] == grille[x, i + 3])))
+                    {
+                        verif = true;
+                        Console.WriteLine("noooooo");
+                    }
+                    else
+                    {
+                        i = i + 1;
+                        Console.WriteLine("no");
+                    }
+                } while (verif == false && i < 3);
+                x = x + 1;
+            } while (verif == false && x < 6);
+
+
+            verifi = verif;
+        }
+        public void veriColone(string[,] grille, out bool verifi)//verifier si il y a 4 pion a la suite verticalement
+        {
+            bool verif = false;
+            int i = 0;
+            int x;
+            do
+            {
+                x = 0;
+                do
+                {
+
+                    if (grille[x, i] != "0" && ((grille[x, i] == grille[x + 1, i]) && (grille[x + 1, i] == grille[x + 2, i]) && (grille[x + 2, i] == grille[x + 3, i])))
+                    {
+                        verif = true;
+                        //Console.WriteLine("noooooo");
+                    }
+                    else
+                    {
+                        x = x + 1;
+                        //Console.WriteLine("no");
+                    }
+                } while (verif == false && x < 3);
+                i = i + 1;
+            } while (verif == false && i < 5);
+
+
+            verifi = verif;
+        }
+        public void verifDiago(string[,] grille, out bool verifi)//verifier si il y a 4 pion a la suite en diagonale 
+        {
+            bool verif = false;
+            int i = 0;
+            int x;
+            do
+            {
+                x = 0;
+                do
+                {
+
+                    if (grille[x, i] != "0" && ((grille[x, i] == grille[x + 1, i + 1]) && (grille[x + 1, i + 1] == grille[x + 2, i + 2]) && (grille[x + 2, i + 2] == grille[x + 3, i + 3])))
+                    {
+                        verif = true;
+                        //Console.WriteLine("noooooo");
+                    }
+                    else
+                    {
+                        x = x + 1;
+                        //Console.WriteLine("no");
+                    }
+                } while (verif == false && x < 3);
+                i = i + 1;
+            } while (verif == false && i < 5);
+
+
+            verifi = verif;
         }
         public void tryparse(out int n)
         {
@@ -116,90 +200,6 @@ namespace puissance4
                 }
             } while (trypasse == false);
 
-        }
-        public void verifLigne(string[,] grille, out bool verifi)
-        {
-            bool verif = false;
-            int i;
-            int x = 0;
-            do
-            {
-                i = 0;
-                do
-                {
-
-                    if (grille[x, i] != "0" && ((grille[x, i] == grille[x, i + 1]) && (grille[x, i + 1] == grille[x, i + 2]) && (grille[x, i + 2] == grille[x, i + 3])))
-                    {
-                        verif = true;
-                        Console.WriteLine("noooooo");
-                    }
-                    else
-                    {
-                        i = i + 1;
-                        Console.WriteLine("no");
-                    }
-                } while (verif == false && i < 3);
-                x = x + 1;
-            } while (verif == false && x < 6);
-
-
-            verifi = verif;
-        }
-        public void veriColone(string[,] grille, out bool verifi)
-        {
-            bool verif = false;
-            int i = 0;
-            int x;
-            do
-            {
-                x = 0;
-                do
-                {
-
-                    if (grille[x, i] != "0" && ((grille[x, i] == grille[x + 1, i]) && (grille[x + 1, i] == grille[x + 2, i]) && (grille[x + 2, i] == grille[x + 3, i])))
-                    {
-                        verif = true;
-                        Console.WriteLine("noooooo");
-                    }
-                    else
-                    {
-                        x = x + 1;
-                        Console.WriteLine("no");
-                    }
-                } while (verif == false && x < 3);
-                i = i + 1;
-            } while (verif == false && i < 5);
-
-
-            verifi = verif;
-        }
-        public void verifDiago(string[,] grille, out bool verifi)
-        {
-            bool verif = false;
-            int i = 0;
-            int x;
-            do
-            {
-                x = 0;
-                do
-                {
-
-                    if (grille[x, i] != "0" && ((grille[x, i] == grille[x + 1, i+1]) && (grille[x + 1, i+1] == grille[x + 2, i+2]) && (grille[x + 2, i+2] == grille[x + 3, i+3])))
-                    {
-                        verif = true;
-                        Console.WriteLine("noooooo");
-                    }
-                    else
-                    {
-                        x = x + 1;
-                        Console.WriteLine("no");
-                    }
-                } while (verif == false && x < 3);
-                i = i + 1;
-            } while (verif == false && i < 5);
-
-
-            verifi = verif;
         }
     }
 }
