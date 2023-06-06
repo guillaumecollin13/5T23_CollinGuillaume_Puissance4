@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FTYJjj+6vGRlybZT02ZMT6rPFxa9FeJ7WmBwuJBsIwNInDKsVCsxt/zqMbkuz08BsbGt+yx4MjfEd3j4lBOIxw==",
+  "dgSpecHash": "4YTM5DtSFZdDX6R8MsN7R1HkBRT5EI321LJIlUm+lG0KpRvK+pNG5GIbjHMPlaE42JiKLk0jIO0eGO39k0zV9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\collin guillaume\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\collin guillaume\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\collin guillaume\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\collin guillaume\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
-  ],
+  "projectFilePath": "H:\\Nouveau dossier (2)\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

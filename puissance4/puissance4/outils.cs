@@ -27,17 +27,27 @@ namespace puissance4
                     if (grille[i, j] == "0")
                     {
                         Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write("|");
                         Console.Write(grille[i, j]);
+                        Console.Write("|");
                     }
                     else if (grille[i, j] == "O")
                     {
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write("|");
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.Write(grille[i, j]);
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write("|");
                     }
                     else
                     {
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write("|");
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.Write(grille[i, j]);
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.Write("|");
                     }
                 }
                 Console.WriteLine("");
@@ -179,7 +189,7 @@ namespace puissance4
         {
             bool trypasse;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("dans quel colone voulez vous mettre votre pion");
+            Console.WriteLine("dans quel colone voulez vous mettre votre pion?");
             do
             {
 
@@ -189,8 +199,13 @@ namespace puissance4
                 {
                     if (n < 0 || n > 7)
                     {
-
-                        Console.WriteLine("ERROR ENTREE INCORRECT veuillez entrez une numero de colone  correct");
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("    __________  ____  ____  ____ ");
+                        Console.WriteLine("   / ____/ __ \\/ __ \\/ __ \\/ __ \\");
+                        Console.WriteLine("  / __/ / /_/ / /_/ / / / / /_/ /");
+                        Console.WriteLine(" / /___/ _, _/ _, _/ /_/ / _, _/ ");
+                        Console.WriteLine("/_____/_/ |_/_/ |_|\\____/_/ |_|  ");
+                        Console.WriteLine("ENTREE INCORRECT veuillez entrez une numero de colone  correct");
                     }
                     else
                     {
@@ -199,7 +214,13 @@ namespace puissance4
                 }
                 else
                 {
-                    Console.WriteLine("ERROR ENTREE INCORRECT veuillez entrez une valeur correct");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("    __________  ____  ____  ____ ");
+                    Console.WriteLine("   / ____/ __ \\/ __ \\/ __ \\/ __ \\");
+                    Console.WriteLine("  / __/ / /_/ / /_/ / / / / /_/ /");
+                    Console.WriteLine(" / /___/ _, _/ _, _/ /_/ / _, _/ ");
+                    Console.WriteLine("/_____/_/ |_/_/ |_|\\____/_/ |_|  ");
+                    Console.WriteLine("ENTREE INCORRECT veuillez entrez une valeur correct");
                 }
             } while (trypasse == false);
 

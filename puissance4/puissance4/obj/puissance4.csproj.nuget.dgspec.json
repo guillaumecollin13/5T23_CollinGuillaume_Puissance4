@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj": {}
+    "H:\\Nouveau dossier (2)\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj": {
+    "H:\\Nouveau dossier (2)\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
+        "projectUniqueName": "H:\\Nouveau dossier (2)\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
         "projectName": "puissance4",
-        "projectPath": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
-        "packagesPath": "C:\\Users\\collin guillaume\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\obj\\",
+        "projectPath": "H:\\Nouveau dossier (2)\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\puissance4.csproj",
+        "packagesPath": "C:\\Users\\220053\\.nuget\\packages\\",
+        "outputPath": "H:\\Nouveau dossier (2)\\5T23_CollinGuillaume_Puissance4\\puissance4\\puissance4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\collin guillaume\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\220053\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,35 +48,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.32, 3.1.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     }
