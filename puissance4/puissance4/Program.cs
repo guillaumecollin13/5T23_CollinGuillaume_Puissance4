@@ -34,7 +34,7 @@ namespace puissance4
                     Console.WriteLine("colonne à la suite de quoi c'est à l'adversaire de jouer. Le vainqueur est le joueur qui ");
                     Console.WriteLine("réalise le premier un alignement (horizontal, vertical ou diagonal) consécutif d'au moins ");
                     Console.WriteLine("quatre pions de sa couleur. Si, alors que toutes les cases de la grille de jeu sont remplies,");
-                    Console.WriteLine(" aucun des deux joueurs n'a réalisé un tel alignement, la partie est déclarée nulle.");
+                    Console.WriteLine("aucun des deux joueurs n'a réalisé un tel alignement, la partie est déclarée nulle.");
                 }
                 
                 
